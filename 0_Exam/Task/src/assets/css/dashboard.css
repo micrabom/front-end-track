@@ -1,0 +1,81 @@
+:root {
+    --primary: #00C9B7 !important;
+    --secondary: #569D93 !important;
+    --alternate-color: #A32596 !important;
+    --primary-bg: #E8F3F1;
+    --primary-light: #ECFDFA;
+    --dark: #222222;
+    --body: #888;
+    --white: #ffffff;
+    --box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
+    --primary-color: #00C9B7;
+    --secondary-color: #569D93 !important;
+    --bs-primary: var(--primary) !important;
+    --bs-blue: var(--primary) !important;
+}
+
+.dashboard {
+    border: 1px solid white;
+    padding: 20px 0 70px;
+}
+
+.dashboard i {
+    width: 20px;
+    height: 100%;
+    margin: 0 3px;
+}
+
+.dashboard h3 {
+    font-size: 22px;
+    text-align: left;
+}
+
+.dashboard h4 {
+    font-size: 22px;
+    font-weight: 200;
+    /* if 50% below color should be  */
+    color: var(--secondary) !important;
+}
+
+.dashboard .backlog-wrapper {
+    min-height: 100%;
+    border-left: 1px solid #fff;
+}
+
+.dashboard .sprint-wrapper {
+    min-height: 100%;
+    border-right: 1px solid #fff;
+}
+
+.parent-div {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    /* make sure the parent div has a height */
+}
+
+.child-element {
+    margin-top: auto;
+    /* push the element to the bottom */
+}
+
+.sprint-wrapper {
+    position: relative;
+}
+.backlog-wrapper {
+    position: relative;
+}
+
+.last-update {
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: .8rem;
+    text-align: left;
+    position: absolute;
+    line-height: normal;
+    bottom: -70px;
+    width: 100%;
+
+}
+

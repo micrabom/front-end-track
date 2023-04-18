@@ -1,0 +1,4 @@
+A. UX must be clear, simple, and effortless.
+B. UX must be user-focused, detailed-oriented, and useful.
+C. UX should be effective, satisfying, and appealing.
+D. UX should be less clicks/keyboard strokes in navigating.

@@ -1,0 +1,114 @@
+:root {
+    --green: #00C9B7 !important;
+    --dark-green: #005c54 !important;
+    --blue: #4b52b0 !important;
+    --purple: #A32596 !important;
+    --yellow: #d9f38b !important;
+    --red: #f55e5e !important;
+    --dark: #222222;
+    --body: #e7e7e7;
+    --gray: #d1d1d1;
+    --dark-gray: #6c6c6c;
+    --white: #fff;
+}
+
+    {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.products-wrapper,
+.form-wrapper {
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    width: 430px;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.products-wrapper h3,
+.form-wrapper h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.product,
+.form-wrapper label {
+    border-top: 1px solid var(--gray);
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+    padding: 10px 0;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+.product label {
+    font-size: 18px;
+}
+
+.product input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.product input[type="number"],
+.form-wrapper input[type="text"],
+.form-wrapper input[type="tel"] {
+    width: 50px;
+    margin-left: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.product input[type="number"]:focus,
+.form-wrapper input[type="text"]:focus,
+.form-wrapper input[type="tel"]:focus {
+    outline: none;
+    border-color: #0066cc;
+    box-shadow: 0px 0px 5px #0066cc;
+}
+
+.products-wrapper input[type="submit"],
+.form-wrapper input[type="submit"] {
+    width: 100%;
+    background-color: var(--dark-gray);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.products-wrapper input[type="submit"]:hover,
+.form-wrapper input[type="submit"]:hover {
+    background-color: var(--dark-green);
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}

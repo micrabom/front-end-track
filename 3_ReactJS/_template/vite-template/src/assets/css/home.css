@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap');
+
+
+:root {
+    --primary: #00C9B7 !important;
+    --secondary: #569D93 !important;
+    --alternate-color: #A32596 !important;
+    --primary-bg:#E8F3F1;
+    --primary-light: #ECFDFA;
+    --dark: #222222;
+    --body: #888;
+    --white: #ffffff;
+    --box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
+    --primary-color: #00C9B7;
+    --secondary-color: #569D93 !important;
+}
+
+.col-img {
+    background-image: url(../assets/images/rd-logo-wbg.svg);
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+}
+.intro{
+    margin-left: 100px;
+}
+.text-secondary {
+    color: #569D93 !important;
+}
+.btn-primary{
+    background-color: var(--primary);
+}
+.btn-primary:hover{
+    border: 2px solid var(--white);
+    background-color: var(--secondary-color);
+}
+li {
+    list-style: none;
+    background-position: center;
+    background-size: cover;
+}
+
+.row {
+    --bs-gutter-x: 0;
+}
+
+.text-slightwhite {
+    color: #e8e8e8 !important;
+    text-align: justify;
+}
+
+body {
+    font-family: "Sora", sans-serif;
+    line-height: 1.7;
+    background-color: #222222;
+}
+#home{
+    width: 1500px;
+}
+.hero {
+    background-image: url(../images/home-bg.png);
+    opacity: 99%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    /* position: relative; */
+    z-index: 2;
+}
+
+.hero::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.text-primary {
+    color: #fff !important;
+}
+
+.btn {
+    border-color: #00C9B7 !important;
+    color: #00C9B7;
+    border-radius: 4px !important;
+}
+
+.btn-primary {
+    border-color: #00C9B7 !important;
+    color: #ffffff;
+    border-radius: 4px !important;
+}
+
+.btn-primary:hover {
+    /* background-color: #007E76; */
+    border-color: #007E76;
+}
+
+.nav-item .nav-link:hover {
+    background-color: #007E76;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.display-4 {    
+    color: var(--dark);
+    font-weight: 700;
+}
+
+/* a {
+    color: var(--dark);
+    text-decoration: none;
+} */
+
+
+.btn {
+    padding: 12px 18px;
+    border-width: 2px;
+    border-radius: 0;
+}
+
+
+
+.service:hover .iconbox {
+    background-color: var(--white);
+    color: var(--primary);
+}
+
+
+.service:hover::after {
+    opacity: 1;
+    top: 0;
+}
+
+.pri-color {
+    color: var(--primary);
+}
+
+.bx {
+    color: var(--primary);
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+
+form input.form-control {
+    height: 56px;
+}
+
+form .form-control {
+    border: transparent;
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+
+.footer-top {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    background-color: var(--dark);
+}
+
+.footer-top a {
+    color: var(--body);
+}
+
+.footer-top a:hover {
+    color: var(--white);
+}
+
+.footer-bottom {
+    background-color: #242933;
+}
+
+/* Text Animation */
+
+.wrapper {
+    display: inline-flex;
+}
+
+.wrapper .static-txt {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.wrapper .dynamic-txts {
+    margin-left: 15px;
+    height: 90px;
+    line-height: 90px;
+    overflow: hidden;
+}
+
+.dynamic-txts li {
+    color: #A32596;
+    list-style: none;
+    font-size: 60px;
+    font-weight: 500;
+    position: relative;
+    top: 0;
+    animation: slide 6s steps(4) infinite;
+}
+
+@keyframes slide {
+    100% {
+        top: -360px;
+    }
+}
+
+.dynamic-txts li span {
+    position: relative;
+}
+
+.dynamic-txts li span::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    height: 110%;
+    width: 100%;
+    background-color: #222222;
+    border-left: 2px solid #A32596;
+    animation: typing 1.5s steps(10) infinite;
+}
+
+@keyframes typing {
+    100% {
+        left: 100%;
+        margin: 0 -35px 0 35px;
+    }
+}
+
+.wave1 {
+    opacity: 100;
+}
+
+/* First Shapedivider */
+.custom-shape-divider-bottom-1677431689 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1677431689 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 75px;
+}
+
+.custom-shape-divider-bottom-1677431689 .shape-fill {
+    fill: #222222;
+}

@@ -1,0 +1,31 @@
+Apply your knowledge on sacred space and alignment to answer these questions:
+
+1.1. Does this design minimize your eye energy? Why/Why not?
+ans.
+No, Too much eye movement.
+
+1.2. What can you do to improve it? Enumerate 2 suggestions and explain why did you recommend them.
+ans.
+a. For the Headling, it should be whole page.
+b. The Logo/Brand should be align in the header navigation.
+c. Secondary button and Primary button must be align
+d. For the chart and images must be in focus and not in the same page.
+
+
+Look at the image above and analyze the underlying UX principle "Typography & Aesthetics" used on the user dashboard.
+
+2.1. Why FB uses only three font colors and font weights?
+ans.
+-  For consistency
+
+2.2. Why FB sets gray and white as its default background?
+ans.
+- To make it look open space and to create a clean and minimalist design that is easy on the eyes and provides a clear contrast between content and background
+
+2.3. What can you say about its image-content layout? Explain your answer.
+ans.
+- The purpose of Facebook's image-content layout is to provide a variety of content kinds, individualized suggestions, and a visually appealing, interactive user experience that places an emphasis on photos and videos.
+
+2.4. Why FB considered a user-friendly application in terms of UX and UI?
+ans.
+- Facebook is a user-friendly program in terms of UX and UI due to its focus on simplicity, personalisation, accessibility, consistency, feedback, and continual improvement. Facebook has developed a platform that is simple to use and navigate while still offering a personalized and interesting user experience by emphasizing the needs and goals of its users.

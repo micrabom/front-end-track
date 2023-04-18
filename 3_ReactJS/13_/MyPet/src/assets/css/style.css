@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --green: #00C9B7 !important;
+    --dark-green: #005c54 !important;
+    --blue: #4b52b0 !important;
+    --purple: #A32596 !important;
+    --yellow: #d9f38b !important;
+    --red: #f55e5e !important;
+    --dark: #222222;
+    --body: #e7e7e7;
+    --gray: #d1d1d1;
+    --dark-gray: #6c6c6c;
+    --white: #fff;
+}
+
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

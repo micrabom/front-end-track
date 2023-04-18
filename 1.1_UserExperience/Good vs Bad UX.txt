@@ -1,0 +1,76 @@
+Questions:
+1.1. Why do you think the left form has great UX? Can you enumerate the good practices applied to the design?
+ans.
+- minimal eye movement
+- straight forward
+- less clicks
+- not consistent in color
+
+1.2. Why do you think the right form has the worst UX? What else can you do to improve its UX?
+ans.
+- too many eye movement
+- visible password
+- too many click
+- inconsistent with color
+
+It should improve the UX by make it straight forward and 
+make it less eye movement and less clicks
+
+
+1.3. Why is white space in design mandatory?
+ans.
+- it improves readability and enhance visual hierarchy.
+
+1.4. How many clicks would you do to complete the left form? Why is it easy to use that sign-up form?
+ans.
+- only six clicks
+- easy to navigate and not too much clicks
+
+1.5. Can you answer the form on the right without someone assisting you? Why?
+ans.
+- yes, as it is straight forward and easy to navigate.
+
+Questions:
+2.1. Can you enumerate the best practices applied to the design? How about the bad ones?
+ans.
+Best pra
+
+2.2. Why do you think the search bar has a UX issue?
+ans.
+- Too much space occupied that can caused future misclick
+
+2.3. Is it necessary to use different but limited colors and sizes for features, text, and icons?
+- Yes
+
+2.4. Why does design emphasis and contrast matter?
+ans.
+- Design emphasis and contrast matter because they create hierarchy, improve readability, add visual interest, and reinforce branding. By mastering these elements, designers can create more effective and visually appealing designs.
+
+2.5. What other icon/s should be removed or improved? Why?
+ans.
+- Icon in mailboxes instead of text you can use icon
+- The attachment icon should be in the message near with has picture or message to improved
+
+
+Questions:
+3.1. Why do you think the UX on the right is more effective in terms of functionality?
+ans.
+- It because action button are top hierarchy with an color come with structure.
+
+3.2. Why are the CTAs or call-to-action buttons of the left modal better?
+ans.
+- Because it gives sense of importance of the cta button.
+
+3.3. How can color, content, font, and style influence the moods and feelings of a user?
+ans.
+- Color, content, font, and style can all have a significant impact on the emotions and mood of a user. By carefully choosing and combining these elements, designers can create designs that evoke the desired emotional response and achieve the intended goals.
+
+3.4. When can we say that the UX is beautiful and intuitive?
+ans.
+- A beautiful and intuitive UX is one that effectively meets the user's needs and goals in a visually appealing and user-friendly way, while also evoking positive emotions and reflecting the brand's identity and values.
+
+3.5. Why do we need to satisfy our users?
+ans.
+- By focusing on the needs and goals of users, designers can create products and services that meet the expectations of their target audience and lead to long-term success.
+- 
+
