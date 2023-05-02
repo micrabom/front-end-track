@@ -1,0 +1,35 @@
+
+:root {
+    --primary: #00C9B7 !important;
+    --secondary: #569D93 !important;
+    --alternate-color: #A32596 !important;
+    --primary-bg: #E8F3F1;
+    --primary-light: #ECFDFA;
+    --dark: #222222;
+    --body: #888;
+    --white: #ffffff;
+    --box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
+    --primary-color: #00C9B7;
+    --secondary-color: #569D93 !important;
+    --bs-primary: var(--primary) !important;
+    --bs-blue: var(--primary) !important;
+}
+
+.subtask-container{
+    margin: 20px 0 20px;
+    border: 1px solid var(--primary);
+    width: 600px;
+    min-height: 200px;
+}
+
+.subtask-container h3{
+    text-align: center;
+}
+.subtask-container input[placeholder="Enter your subtask"]{
+    width: 400px;
+    padding-left: 5px;
+}
+.subtask-container input[alt='subTaskbtn']{
+    width: 100px;
+    text-align: center;
+}
